@@ -27,7 +27,7 @@
       "metadata": {
         "description": "The location of resources, such as templates and DSC modules, that the template depends on"
       },
-      "defaultValue": "https://raw.githubusercontent.com/yuwinstion/Azure-MDCS-Public/master/active-directory-new-domain/"
+      "defaultValue": "https://raw.githubusercontent.com/yuwinston/Azure-MDCS-Public/master/active-directory-new-domain"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
@@ -43,7 +43,7 @@
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'mdcs')]",
     "adRDPNAT": "adRDP",
     "adNicName": "adNic",
-    "adNicIPAddress": "10.0.0.2",
+    "adNicIPAddress": "10.0.0.4",
     "adVMName": "mdcsadVM",
     "adSubnetName": "mdcspublicSubnet",
     "adSubnetAddressPrefix": "10.0.0.0/24",

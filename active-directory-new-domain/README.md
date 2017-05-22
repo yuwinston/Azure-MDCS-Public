@@ -7,6 +7,3 @@ Click the button below to deploy
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fyuwinston%2FAzure-MDCS-public%2Fmaster%2Factive-directory-new-domain%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
-<a href="https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fyuwinston%2FAzure-MDCS-Public%2Fmaster%2Factive-directory-new-domain%2Fazuredeploy.json" target="_blank">
-    <img src="http://azuredeploy.net/AzureGov.png"/>
-</a>

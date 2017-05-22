@@ -7,7 +7,7 @@
       "metadata": {
         "description": "The name of the administrator account of the new VM and domain"
       },
-	  "defaultValue": "hpc"
+	  "defaultValue": "mdcs"
     },
     "adminPassword": {
       "type": "securestring",
@@ -19,13 +19,15 @@
       "type": "string",
       "metadata": {
         "description": "The FQDN of the Active Directory Domain to be created"
-      }
+      },
+      "defaultValue": "mdcs.local"
     },
     "dnsPrefix": {
       "type": "string",
       "metadata": {
         "description": "The DNS prefix for the public IP address used by the Load Balancer"
-      }
+      },
+      "defaultValue": "mymdcs"
     },
     "_artifactsLocation": {
       "type": "string",

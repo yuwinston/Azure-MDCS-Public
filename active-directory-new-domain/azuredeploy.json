@@ -27,7 +27,7 @@
       "metadata": {
         "description": "The location of resources, such as templates and DSC modules, that the template depends on"
       },
-      "defaultValue": "https://raw.githubusercontent.com/yuwinstion/Azure-MDCS-Public/tree/master/active-directory-new-domain"
+      "defaultValue": "https://raw.githubusercontent.com/yuwinstion/Azure-MDCS-Public/master/active-directory-new-domain/"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
@@ -41,8 +41,6 @@
     "virtualNetworkName": "mdcsVnet",
     "virtualNetworkAddressRange": "10.0.0.0/16",
     "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'mdcs')]",
-    "adLBFE": "LBFE",
-    "adLBBE": "LBBE",
     "adRDPNAT": "adRDP",
     "adNicName": "adNic",
     "adNicIPAddress": "10.0.0.2",
@@ -141,7 +139,7 @@
       ],
       "properties": {
         "hardwareProfile": {
-          "vmSize": "Standard_D2_v2"
+          "vmSize": "Standard_D1_v2"
         },
         "availabilitySet": {
           "id": "[resourceId('Microsoft.Compute/availabilitySets', variables('adAvailabilitySetName'))]"
